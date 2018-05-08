@@ -23,4 +23,4 @@ cabal.project.local~
 .DS_Store
 .vscode/settings.json
 *.pyc
-typescript/hello-world/node_modules/
+typescript/*/node_modules/

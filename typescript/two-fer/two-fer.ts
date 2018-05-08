@@ -1,7 +1,7 @@
 class TwoFer {
-  static twoFer( /* Parameters go here */ ) {
-    // Your code here
+  static twoFer(name?: string) {
+    return `One for ${name || "you"}, one for me.`;
   }
 }
 
-export default TwoFer
+export default TwoFer;
